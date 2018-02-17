@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine On 
+RewriteBase /blog/
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?r=$1 [L]

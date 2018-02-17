@@ -1,0 +1,9 @@
+	protected function get_query(){
+		$conn=self::db_open();
+		$result=$conn->prepare($this->query);
+		$result->execute();
+		while ($this->row [] = $result->fetchAll(PDO::FETCH_OBJ));
+		$this->db_close();
+		$result=null;
+		return array_pop($this->row);
+	}

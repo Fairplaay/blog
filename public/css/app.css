@@ -1,0 +1,46 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+#header-container,
+#info-container{
+	background-color:  #750588;
+	color: white;
+}
+#carousel-container div img{
+	margin: 0 auto;
+}
+nav div{
+	background-color:  #e8dde8;
+}
+
+#info-container h4{
+	margin: 1em 0;
+}
+
+#footer-container{
+	background-color: #1c3643;
+	color: white;
+	padding:3em 0;
+}
+#footer-container h4{
+	font-size: 16px;
+}
+
+#footer-container .nav-link{
+	color: white;
+}
+
+#footer-container #navegacion{
+	padding:1em 0;
+}
+
+/*-----filtros-----*/
+#filtros-container .list-group-item-action.active{
+	background-color: #750588;
+	border-color: #750588;
+}
+
+#filtros-container .list-group{
+	margin-bottom: 1em;
+}
+
